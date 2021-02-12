@@ -1,3 +1,12 @@
+p, button, a{
+    font-family: 'Montserrat';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
 /* Desktop CSS */
 .row{
     margin: auto;
@@ -26,7 +35,8 @@
 }
 
 #content-banner-second-heading{
-    font-size: 45px
+    font-size: 45px;
+    margin-bottom: 3rem;
 }
 
 #content-banner-image-outer-box{
@@ -41,7 +51,7 @@
 
 #content-banner-text{
     position: absolute;
-    top: 35%;
+    top: 10rem;
     color: white;
     padding: 0 62px;
     font-size: 20px;
@@ -392,5 +402,39 @@
     }
     .desktop-hide{
         display: block;
+    }
+    #content-container{
+        padding-top: 0px;
+        text-align: center;
+    }
+    #content-banner{
+        margin: 18px auto;
+    }
+    #content-banner-second-heading{
+        margin-bottom: 0px;
+        font-size: 28px;
+    }
+    #content-form-outer-box {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #content-form-first-heading{
+        font-size: 20px;
+    }
+    #content-form-second-heading {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    #content-form-conditions {
+        font-size: 12px;
+        padding: 0px;
+    }
+    #content-banner-image-outer-box {
+        margin-top: 30px;
+    }
+    #content-banner-text {
+        top: 5rem;
+        padding: 0 10px;
+        font-size: 14px;
     }
 }
