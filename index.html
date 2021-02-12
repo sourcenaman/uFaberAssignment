@@ -31,19 +31,19 @@
                         <div id="content-form-inner-box">
                             <h3 id="content-form-first-heading">Book a Free Demo Class</h3>
                             <p id="content-form-second-heading">Limited Seats Only !</p>
-                            <form method="post" action="thankyou.html" onsubmit= return validation()>
+                            <form method="post" action="thankyou.html" onsubmit= "return validation()">
                                 <div class="form-group content-form-field">
-                                    <input type="text" id="number" class="form-control content-form-input" required>
+                                    <input type="number" id="number" onkeyup="realTimeValidation(this.id)" onkeypress="if(this.value.length>=10) return false;" class="form-control content-form-input" required>
                                     <label class="content-form-placeholder" for="number">Mobile Number</label>
                                     <p></p>
                                 </div>
                                 <div class="form-group content-form-field">
-                                    <input type="text" id="name" class="form-control content-form-input" required>
+                                    <input type="text" id="name" onkeyup="realTimeValidation(this.id)" class="form-control content-form-input" required>
                                     <label class="content-form-placeholder" for="name">Enter Full Name</label>
                                     <p></p>
                                 </div>
                                 <div class="form-group content-form-field">
-                                    <input type="text" id="email" class="form-control content-form-input" required>
+                                    <input type="email" id="email" onkeyup="realTimeValidation(this.id)" class="form-control content-form-input" required>
                                     <label class="content-form-placeholder" for="email">Enter E-mail ID</label>
                                     <p></p>
                                 </div>

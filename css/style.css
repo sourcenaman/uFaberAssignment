@@ -1,3 +1,22 @@
+/* Remove arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+}
+
 p, button, a{
     font-family: 'Montserrat';
 }
@@ -51,9 +70,9 @@ h1,h2,h3,h4,h5,h6{
 
 #content-banner-text{
     position: absolute;
-    top: 10rem;
+    top: 7rem;
     color: white;
-    padding: 0 62px;
+    padding: 0 59px;
     font-size: 20px;
     text-align: center;
 }
@@ -133,11 +152,6 @@ h1,h2,h3,h4,h5,h6{
     color: gray;
 }
 
-.content-form-error{
-    color: red;
-    border: 1px solid red;
-}
-
 .content-form-field p{
     color: red;
     text-align: left;
@@ -155,6 +169,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 20px;
     background: linear-gradient(90deg, rgba(162, 158, 245, 1) 0%, rgba(197, 138, 255, 1) 100%);
     border: none;
+    box-shadow: none;
 }
 
 #content-form-conditions{
@@ -224,13 +239,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .carousel-indicators [data-bs-target]{
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        margin-left: 10px;
-        margin-right: 10px;
-        background-color: white;
-        background-image: linear-gradient(to right bottom, #443ee9, #5839f0, #6a32f5, #7c27fb, #8e14ff);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    background-image: linear-gradient(to right bottom, #443ee9, #5839f0, #6a32f5, #7c27fb, #8e14ff);
 }
 
 .carousel-content-box{
