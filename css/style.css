@@ -316,6 +316,7 @@ h1,h2,h3,h4,h5,h6{
     width: 80%;
     border: none;
     font-size: 20px;
+    box-shadow: none;
     background: linear-gradient(90deg, rgba(162, 158, 245, 1) 0%, rgba(197, 138, 255, 1) 100%);
 }
 
@@ -383,6 +384,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     padding: 1rem 2rem;
     border-radius: 12px;
+    box-shadow: none;
 }
 
 #company-link-left a{
@@ -397,6 +399,44 @@ h1,h2,h3,h4,h5,h6{
 
 #company-link-left a i, #company-link-right a i{
     margin-right: 25px;
+}
+
+#chat-with-us{
+    position: fixed;
+    bottom: 3rem;
+    right: 10rem;
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 3px 3px 6px 2px #e2e2e2;
+}
+
+#chat-with-us-buttons{
+    position: fixed;
+    bottom: 6rem;
+    right: 10rem;
+}
+
+#chat-with-us-buttons a {
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 20px;
+
+}
+
+#chat-with-us-buttons a i {
+    vertical-align: sub;
+}
+
+#chat-with-us-buttons a:nth-child(1) {
+    border: none;
+    background: linear-gradient(90deg, rgba(162, 158, 245, 1) 0%, rgba(197, 138, 255, 1) 100%);
+}
+
+#chat-with-us-buttons a:nth-child(2) {
+    border: none;
+    background: #25D366;
 }
 
 /* Mobiles CSS */
@@ -521,5 +561,7 @@ h1,h2,h3,h4,h5,h6{
         text-align: center;
         margin-bottom: 15px;
     }
-
+    #chat-with-us, #chat-with-us-buttons{
+        right: 3rem;
+    }
 }
