@@ -1,0 +1,396 @@
+/* Desktop CSS */
+.row{
+    margin: auto;
+}
+
+#content-body{
+    background-color: #FFF5F2;
+}
+
+#content-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#content-banner{
+    margin: 95px auto;
+}
+
+#content-banner-first-heading{
+    font-weight: 300;
+    font-size: 32px;
+}
+
+#content-banner-first-heading span{
+    font-weight: 600;
+}
+
+#content-banner-second-heading{
+    font-size: 45px
+}
+
+#content-banner-image-outer-box{
+    position: relative;
+    background-color: #021820;
+}
+
+#content-banner-image{
+    width: 100%;
+    opacity: 0.5;
+}
+
+#content-banner-text{
+    position: absolute;
+    top: 35%;
+    color: white;
+    padding: 0 62px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#content-form-outer-box{
+    padding-right: 35px;
+    padding-left: 50px;
+}
+
+#content-form-inner-box{
+    border-radius: 25px;
+    background: white;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 5px -5px 50px 2px #eaeaea;
+}
+
+#content-form-second-heading{
+    color: red;
+    font-size: 22px;
+    margin-bottom: 3rem;
+}
+
+.content-form-field{
+    position: relative;
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.content-form-input {
+    padding: 18px;
+    padding-left: 28px;
+    text-align: left;
+}
+
+.content-form-input:focus {
+    border: 1px solid #c9c9c9;
+    box-shadow: none;
+}
+
+.content-form-input::after{
+    position: absolute;
+    top: 48%;
+    left: 92%;
+}
+
+#content-form-list{
+    padding: 0px;
+    width: 100%;
+}
+
+.content-form-option:hover{
+    background-color: #FFECE5;
+    cursor: pointer;
+}
+
+.content-form-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 0 0 25px;
+    transition: all 200ms;
+    color: #c9c9c9;
+}
+
+.content-form-input:focus + .content-form-placeholder,
+.content-form-input:valid + .content-form-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -50%, 0);
+    background: white;
+    padding: 0px 4px;
+    margin-left: 25px;
+    opacity: 1;
+}
+
+#content-form-button{
+    color: gray;
+}
+
+.content-form-error{
+    color: red;
+    border: 1px solid red;
+}
+
+.content-form-field p{
+    color: red;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#content-form-label{
+    margin-bottom: 10px;
+}
+
+#content-form-submit{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(162, 158, 245, 1) 0%, rgba(197, 138, 255, 1) 100%);
+    border: none;
+}
+
+#content-form-conditions{
+    font-size: 14px;
+    padding: 0px 25px;
+    font-weight: 300;
+    color: gray;
+}
+
+.desktop-hide {
+    display: none;
+}
+
+#thankyou-container{
+    text-align: center;
+}
+
+#thankyou-content{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px -5px 50px 2px #eaeaea;
+}
+
+#thankyou-content .row{
+    padding: 20px 40px;
+}
+
+#thankyou-text{
+    padding: 2rem 15rem;
+    font-size: 30px;
+    font-weight: 400;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #FFECE5;
+}
+
+#thankyou-image-box{
+    margin: auto;
+}
+
+#thankyou-image-box img{
+    width: 85%;
+}
+
+#thankyou-next-box{
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}
+
+#thankyou-next-box .bi{
+    margin-right: 20px;
+}
+
+#carousel-container{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -4rem;
+}
+
+.carousel-indicators [data-bs-target]{
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+        background-image: linear-gradient(to right bottom, #443ee9, #5839f0, #6a32f5, #7c27fb, #8e14ff);
+}
+
+.carousel-content-box{
+    width: 63%;
+    background-image: linear-gradient(to right bottom, #443ee9, #5839f0, #6a32f5, #7c27fb, #8e14ff);
+    border-radius: 6px;
+    padding: 40px 77px;
+    position: relative;
+}
+
+.carousel-content-box img{
+    width: 82px;
+}
+
+#carousel-name, #carousel-rank{
+    position: absolute;
+    left: 11.5rem;
+    font-size: 20px;
+    color: white;
+}
+
+#carousel-name{
+    top: 3rem;
+}
+
+#carousel-rank {
+    top: 5rem;
+    font-weight: 600;
+}
+
+#carousel-review{
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#video-container{
+    text-align: center;
+}
+
+#video-container p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#magazine-container{
+    background: #FFECE5;
+    padding: 5rem 10rem;
+}
+
+#magazine-image-box{
+    margin: auto;
+}
+
+#magazine-content-box{
+    margin: auto;
+    text-align: right;
+}
+
+#magazine-content-box p,
+#magazine-content-box h2,
+#magazine-content-box button {
+    margin-bottom: 25px;
+}
+
+#magazine-content-box h2{
+    margin-bottom: 30px;
+}
+
+#magazine-content-box p{
+    font-size: 20px;
+}
+
+#magazine-content-box p:nth-child(4){
+    padding-left: 5.4rem;
+}
+
+#magazine-content-box button{
+    padding: 2px;
+    border-radius: 6px;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(162, 158, 245, 1) 0%, rgba(197, 138, 255, 1) 100%);
+}
+
+#magazine-content-box button i {
+    font-size: 35px;
+    vertical-align: sub;
+    margin-right: 30px;
+}
+
+#get-container{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#get-box-left{
+    text-align: right;
+}
+
+#get-box-right {
+    text-align: left;
+}
+
+#get-box-left p, #get-box-right p{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 2px 0px;
+    font-size: 20px;
+}
+
+#get-box-left p{
+    margin-left: auto;
+}
+
+#get-box-right p{
+    margin-right: auto;
+}
+
+#get-box-left p:nth-child(1),
+#get-box-right p:nth-child(1){
+    width: 40%
+}
+
+#get-box-left p:nth-child(2),
+#get-box-right p:nth-child(2) {
+    width: 50%
+}
+
+#get-box-left p:nth-child(3),
+#get-box-right p:nth-child(3) {
+    width: 60%
+}
+
+#company-link-left{
+    text-align: right;
+}
+
+#company-link-right {
+    text-align: left;
+}
+
+#company-link-left a,
+#company-link-right a{
+    color: white;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+}
+
+#company-link-left a{
+    background-color: #FF7A00;
+    border: none;
+}
+
+#company-link-right a {
+    background-color: #FF0000;
+    border: none;
+}
+
+#company-link-left a i, #company-link-right a i{
+    margin-right: 25px;
+}
+
+/* Mobiles CSS */
+
+@media screen and (max-width: 768px) {
+    .mobile-hide{
+        display: none;
+    }
+    .desktop-hide{
+        display: block;
+    }
+}
