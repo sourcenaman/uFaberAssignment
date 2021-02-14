@@ -3,7 +3,6 @@ function dropdownValue(element){
     document.getElementById("content-form-button").innerHTML = element.innerHTML;
     document.getElementById("content-form-button").style.color = "black";
     document.getElementById("content-form-button").value = val;
-    console.log(document.getElementById("content-form-button").value);
 }
 
 function validation(){
